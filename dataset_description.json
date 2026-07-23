@@ -1,0 +1,14 @@
+{
+  "Name": "Frequency Cortical Magnification Auditory Cortex 7T",
+  "BIDSVersion": "1.9.0",
+  "Authors": [
+    "Benjamin Gurer",
+    "Rosa-Maria Sanchez-Panchuelo",
+    "Susan Francis",
+    "Denis Schluppeck",
+    "Katrin Krumbholz",
+    "Julien Besle"
+  ],
+  "DatasetDOI": "",
+  "License": "CC0"
+}
