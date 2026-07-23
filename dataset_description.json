@@ -1,14 +1,17 @@
 {
-  "Name": "Frequency Cortical Magnification Auditory Cortex 7T",
-  "BIDSVersion": "1.9.0",
-  "Authors": [
-    "Benjamin Gurer",
-    "Rosa-Maria Sanchez-Panchuelo",
-    "Susan Francis",
-    "Denis Schluppeck",
-    "Katrin Krumbholz",
-    "Julien Besle"
-  ],
-  "DatasetDOI": "",
-  "License": "CC0"
+    "Name": "Frequency Cortical Magnification Auditory Cortex 7T",
+    "BIDSVersion": "1.9.0",
+    "Authors": [
+        "Benjamin Gurer",
+        "Rosa-Maria Sanchez-Panchuelo",
+        "Susan Francis",
+        "Denis Schluppeck",
+        "Katrin Krumbholz",
+        "Julien Besle"
+    ],
+    "DatasetDOI": "",
+    "License": "CC0",
+    "EthicsApprovals": [
+        "This study was approved by the Ethics Committee of the University of Nottingham’s School of Medicine"
+    ]
 }
