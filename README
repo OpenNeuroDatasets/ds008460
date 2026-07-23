@@ -5,7 +5,7 @@
 This dataset contains ultra-high-field (7 Tesla) functional MRI data acquired to investigate the cortical representation of sound frequency in the human primary auditory cortex. The study includes two functional paradigms:
 
 - **Frequency-specific adaptation** (participants 1-12): an auditory adaptation paradigm originally designed to investigate frequency-selective adaptation. This paradigm included both varying-frequency and constant-frequency stimuli (at 7 centre frequencies). The seven constant-frequency stimuli were used for tonotopic mapping and to estimate the cortical frequency magnification function.
-- **Tonotopic mapping** (participants 13-20): a tonotopic mapping paradigm using 32 centre frequencies.
+- **Tonotopic mapping** (participants 13-20): a tonotopic mapping paradigm with stimuli at 32 centre frequencies, used to estimate the cortical frequency magnification function.
 
 For each participant, the dataset includes:
 
@@ -67,7 +67,7 @@ Rows corresponding to silent periods or scanner-only acquisitions have been omit
 
 ## Functional Images
 
-Funtional images have been motion- and distortion-corrected 
+2 to 8 reduced-FOV functional runs, depending on the task and the participant. Functional timeseries have been motion- and distortion-corrected.
 
 ---
 
@@ -76,7 +76,7 @@ Funtional images have been motion- and distortion-corrected
 Each participant includes:
 
 - MP2RAGE inversion images (`part-mag` and `part-phase`)
-- Cropped high-resolution T2*-weighted anatomical image
+- Reduced-FOV high-resolution T2*-weighted anatomical image
 
 The MP2RAGE **magnitude** images have been **defaced** to protect participant anonymity. Phase images were not modified.
 
@@ -86,15 +86,15 @@ The MP2RAGE **magnitude** images have been **defaced** to protect participant an
 
 If you use this dataset, please cite:
 
-### Cortical frequency magnification
+### Cortical frequency magnification:
 
 Gurer, B.J., Sanchez-Panchuelo, R.-M., Francis, S.T., Schluppeck, D., Krumbholz, K., Besle, J., 2026. Frequency magnification in human primary auditory cortex nearly predicts behavioural frequency hyperacuity. BioRXiv. https://doi.org/10.64898/2026.06.17.732895
 
-### Frequency-specific adaptation
+### Frequency-specific adaptation:
 
 Besle, J., Sánchez-Panchuelo, R.-M., Francis, S., Krumbholz, K., 2022. Can single-neuron frequency tuning in human auditory cortex be quantified through fMRI adaptation? BioRXiv. https://doi.org/10.1101/2022.01.06.475208
 
-### Parcellation of primary auditory cortex
+### Parcellation of primary auditory cortex:
 
 Besle, J., Mougin, O., Sánchez-Panchuelo, R.-M., Lanting, C., Gowland, P., Bowtell, R., Francis, S., Krumbholz, K., 2019. Is Human Auditory Cortex Organization Compatible With the Monkey Model? Contrary Evidence From Ultra-High-Field Functional and Structural MRI. Cerebral Cortex 29, 410–428. https://doi.org/10.1093/cercor/bhy267
 
