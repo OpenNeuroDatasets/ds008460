@@ -34,13 +34,13 @@ Detailed acquisition parameters are provided in the accompanying BIDS JSON sidec
 
 Both paradigms used trains of narrow-band-filtered noises at different frequencies (7 frequencies in the Adaptation paradigm and 32 frequencies in the Tonotopy paradigm), presented between fMRI volume acquisitions (sparse). The bandwidth of the noises was constant when expressed in cochlear ERBs (and therefore increased approximately linearly with centre frequency). In both paradigms, participants watched a self-selected subtitled silent movie and were instructed to ignore the sounds.
 
-### Adaptation
+### Frequency-specific adaptation
 The paradigm was originally designed to measure frequency-selective adaptation in human auditory cortex using sparse fMRI acquisition. Adaptor-only trials (A) were trains of narrow-band noises at constant centre frequency at one of 7 different centre frequencies. Adaptation (adaptor + probe, AP) trials were trains of two alternating centre frequencies, with the adaptor frequency at one of 5 centre frequencies and the probe frequency always the same frequency. Probe trials (P) were trains of the probe frequency without adaptor.
 The 7 Adaptor-only trial types were used to map tonotopic representations in auditory cortex and measure its cortical magnification function (Gurer et al., 2026)
 Frequency-specific adaptation was computed as A + P - AP, with the frequency of A varying in frequency across 5 values (Besle et al., 2022)
 
 
-### Tonotopy
+### Tonotopic mapping
 Trains of narrow-band noises were presented at one of 32 centre frequencies to map tonotopic representations in auditory cortex and measure its cortical magnification function (Gurer et al., 2026)
 
 ---
@@ -86,7 +86,7 @@ The MP2RAGE **magnitude** images have been **defaced** to protect participant an
 
 If you use this dataset, please cite:
 
-### cortical magnificaiont
+### Cortical frequency magnification
 
 Gurer, B.J., Sanchez-Panchuelo, R.-M., Francis, S.T., Schluppeck, D., Krumbholz, K., Besle, J., 2026. Frequency magnification in human primary auditory cortex nearly predicts behavioural frequency hyperacuity. BioRXiv. https://doi.org/10.64898/2026.06.17.732895
 
