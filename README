@@ -4,8 +4,8 @@
 
 This dataset contains ultra-high-field (7 Tesla) functional MRI data acquired to investigate the cortical representation of sound frequency in the human primary auditory cortex. The study includes two functional paradigms:
 
-- **Adaptation** (participants 1-12): an auditory adaptation paradigm originally designed to investigate frequency-selective adaptation. This paradigm included both varying-frequency and constant-frequency stimuli (at 7 centre frequencies). Only constant-frequency stimuli were used to estimate the cortical frequency magnification function.
-- **Tonotopy** (participants 13-20): a tonotopic mapping paradigm using 32 centre frequencies.
+- **Frequency-specific adaptation** (participants 1-12): an auditory adaptation paradigm originally designed to investigate frequency-selective adaptation. This paradigm included both varying-frequency and constant-frequency stimuli (at 7 centre frequencies). The seven constant-frequency stimuli were used for tonotopic mapping and to estimate the cortical frequency magnification function.
+- **Tonotopic mapping** (participants 13-20): a tonotopic mapping paradigm using 32 centre frequencies.
 
 For each participant, the dataset includes:
 
