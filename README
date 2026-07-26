@@ -67,7 +67,7 @@ Rows corresponding to silent periods or scanner-only acquisitions have been omit
 
 ## Functional Images
 
-2 to 8 reduced-FOV functional runs, depending on the task and the participant. Functional timeseries have been motion- and distortion-corrected.
+2 to 8 reduced-FOV functional runs, depending on the task and the participant. Functional timeseries have been motion-corrected using linear registration to a reference frame, distortion-corrected using non-linear registration to the reduced-FOV high-resolution T2*w volume and linearly registered to the whole-head PSIR data using the high-res reduced-FOV T2*w volumes as an intermediate.
 
 ---
 
@@ -75,8 +75,8 @@ Rows corresponding to silent periods or scanner-only acquisitions have been omit
 
 Each participant includes:
 
-- MP2RAGE inversion images (`part-mag` and `part-phase`)
-- Reduced-FOV high-resolution T2*-weighted anatomical image
+- Whole-head PSIR (MP2RAGE) volumes (`part-mag` and `part-phase`), used to reconstruct the cortical surface for surface-based analysis
+- Reduced-FOV high-resolution T2*-weighted anatomical image, used to estimate and correct the fMRI distortions using non-linear alignment. They have also been linearly registered to the whole-head PSIR volumes.
 
 The MP2RAGE **magnitude** images have been **defaced** to protect participant anonymity. Phase images were not modified.
 
