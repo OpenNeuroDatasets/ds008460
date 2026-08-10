@@ -1,0 +1,13 @@
+{
+  "Name": "surfRelax cortical surface reconstructions",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "mlrImportFreesurfer",
+      "Description": "mrTools's function to import Freesurfer surfaces in surfRelax format",
+      "URL": "https://gru.stanford.edu/doku.php/mrtools/howto#importing_segmentation_to_mlr"
+    }
+  ],
+  "Description": "Cortical surfaces of the whole-head PSIR images included in the dataset, converted from the freeSurfer to the surfRelax format using mrTools' mlrImportFreesurfer, together with the PSIR data preprocessed by Freesurfer and flat maps of the supratemporal plane."
+}
