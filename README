@@ -2,7 +2,7 @@
 
 ## Overview
 
-This dataset contains ultra-high-field (7 Tesla) functional MRI data acquired to investigate the cortical representation of sound frequency in the human primary auditory cortex. The study includes two functional paradigms:
+This dataset contains ultra-high-field (7 Tesla) functional MRI data acquired to investigate the cortical representation of sound frequency in the human primary auditory cortex (Gurer et al. 2026). The study includes two functional paradigms:
 
 - **Frequency-specific adaptation** (participants 1-12): an auditory adaptation paradigm originally designed to investigate frequency-selective adaptation. This paradigm included both varying-frequency and constant-frequency stimuli (at 7 centre frequencies). The seven constant-frequency stimuli were used for tonotopic mapping and to estimate the cortical frequency magnification function.
 - **Tonotopic mapping** (participants 13-20): a tonotopic mapping paradigm with stimuli at 32 centre frequencies, used to estimate the cortical frequency magnification function.
@@ -12,6 +12,8 @@ For each participant, the dataset includes:
 - Functional reduced-FOV BOLD fMRI data over the supra-temporal plane (1.5 mm isotropic resolution)
 - High-resolution MP2RAGE anatomical images (magnitude and phase) (0.6 to 0.8 mm isotropic resolution)
 - High-resolution reduced-FOV T2*-weighted anatomical images (in-plane with the BOLD fMRI data)
+
+The code go replicate the analyses and figures in Gurer et al. (2026) is hosted at https://github.com/julienbesle/frequencyCorticalMagnification7T and archived at https://doi.org/10.5281/zenodo.21879249
 
 ---
 
@@ -69,6 +71,10 @@ Rows corresponding to silent periods or scanner-only acquisitions have been omit
 
 2 to 8 reduced-FOV functional runs, depending on the task and the participant. Functional timeseries have been corrected for dynamic B0-related distortions, motion-corrected using linear registration to a reference frame, distortion-corrected using non-linear registration to the reduced-FOV high-resolution T2*w volume and linearly registered to the whole-head PSIR data using the high-res reduced-FOV T2*w volumes as an intermediate (see Besle et al., 2019 for details).
 
+In addition, the following surface-based functional ROIs are delimiting are provided (in ./derivatives/mrTools) because they were partly hand-drawn during the original analysis:
+- tonotopically-organised auditory cortex
+- the two mirror-reversed tonotopic gradients in primary auditory cortex
+
 ---
 
 ## Anatomical Images
@@ -79,6 +85,11 @@ Each participant includes:
 - Reduced-FOV high-resolution T2*-weighted anatomical image, used to estimate and correct the fMRI distortions using non-linear alignment. They have also been linearly registered to the whole-head PSIR volumes.
 
 The MP2RAGE **magnitude** images have been **defaced** to protect participant anonymity. Phase images were not modified.
+
+In addition, the following processed data are provided for convenience in ./derivatives/surfRelax (to shorten the analysis time and because they involved some manual steps):
+- freesurfer-reconstructed surfaces, converted to surfRelax format for use in mrTools (required manual segmentation correct in some participants)
+- Freesurfer-preprocessed PSIR images, converted to .nii.gz format
+- mrTools-created flat maps of the supra-temporal plane
 
 ---
 
