@@ -13,7 +13,9 @@ For each participant, the dataset includes:
 - High-resolution MP2RAGE anatomical images (magnitude and phase) (0.6 to 0.8 mm isotropic resolution)
 - High-resolution reduced-FOV T2*-weighted anatomical images (in-plane with the BOLD fMRI data)
 
-The code go replicate the analyses and figures in Gurer et al. (2026) is hosted at https://github.com/julienbesle/frequencyCorticalMagnification7T and archived at https://doi.org/10.5281/zenodo.21879249
+The code to replicate the analyses and figures in Gurer et al. (2026) is:
+- hosted at https://github.com/julienbesle/frequencyCorticalMagnification7T
+- archived at https://doi.org/10.5281/zenodo.21879249
 
 ---
 
