@@ -1,3 +1,6 @@
+1.1.0 2026-08-10
+  - Added pre-computed/pre-converted surfRelax surfaces, mrTools flat patches and mrTools functional ROIs
+  - Added information on Github analysis repository
 1.0.1 2026-07-26
   - Replaced resampled T2* images by original high-resolution images for subjects 1-12
 1.0.0 2026-07-23
