@@ -1,0 +1,18 @@
+{
+  "StimulusPresentation": {
+    "SoftwareName": "Matlab, RPvdsEx + ActiveX",
+    "Manufacturer": "Mathworks, Tucker-Davis Technology"
+  },
+  "scan": {
+    "Description": "Dynamic scan number after which the stimulus was presented"
+  },
+  "frequency_kHz": {
+    "Description": "Stimulus centre frequency in kHz."
+  },
+  "level_dB_SPL": {
+    "Description": "Stimulus sound level in dB SPL."
+  },
+  "bandwidth_kHz": {
+    "Description": "Stimulus bandwidth in kHz."
+  }
+}
