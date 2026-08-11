@@ -1,0 +1,16 @@
+{
+  "Manufacturer": "Philips",
+  "ManufacturersModelName": "Achieva",
+  "MagneticFieldStrength": 7,
+  "ReceiveCoilName": "Nova Medical 1Tx32Rx",
+  "InstitutionName": "University of Nottingham",
+  "InstitutionAddress": "University Park, Nottingham, United Kingdom",
+  "InstitutionalDepartmentName": "Sir Peter Mansfield Imaging Centre",
+  "Units": "arbitrary",
+  "PulseSequenceType": "T2*-weighted FLASH",
+  "ScanningSequence": "GR",
+  "SequenceName": "FFE",
+  "MRAcquisitionType": "2D",
+  "FlipAngle": 32,
+  "EchoTime": 0.00972
+}
