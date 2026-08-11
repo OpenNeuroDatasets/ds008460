@@ -1,0 +1,14 @@
+{
+  "Name": "fMRI data analysis folder",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "mrTools",
+      "Description": "fMRI data analysis software",
+      "URL": "https://github.com/julienbesle/mrTools",
+      "Version": "4.7"
+    }
+  ],
+  "Description": "Destination folder for fMRI data analysis using mrTools. The BIDS dataset only contains ROIs that were hand drawn and cannot be exactly replicated (in the ROIs folder). ROIs are saved in Matlab structure which list the included voxels in a specified space. They can be imported using mrTools. Everything else can be recreated from the provided functional anatomical data"
+}
