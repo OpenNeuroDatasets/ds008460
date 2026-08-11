@@ -1,9 +1,0 @@
-{
-  "taskgroup": {
-    "Description": "functional mapping done by each subject",
-    "Levels": {
-      "adaptation": "Subjects 1-12",
-      "tonotopy": "Subjects 13-20"
-    }
-  }
-}
